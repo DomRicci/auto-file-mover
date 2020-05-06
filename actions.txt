@@ -1,0 +1,3 @@
+INPROGRESS moving testtext.txt SUCCESS moved testtext.txt to C:\DATA\TXT_downloads\
+INPROGRESS moving wow_a_new_test_file.txt SUCCESS moved wow_a_new_test_file.txt to C:\DATA\TXT_downloads\
+INPROGRESS moving wow_a_new_test_file.txt SUCCESS moved wow_a_new_test_file.txt to C:\DATA\TXT_downloads\
