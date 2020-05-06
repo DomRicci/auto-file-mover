@@ -10,7 +10,7 @@ class myHandler(FileSystemEventHandler):
 
         for filename in os.listdir(folder_to_track):
             doc = open("actions.txt", "a")
-            doc.write("INPROGRESS moving " + filename )
+            doc.write("INPROGRESS moving " + filename)
             file_extension = os.path.splitext(filename)[1]
             src = folder_to_track + "\\" + filename     # Path for file to be moved
 
