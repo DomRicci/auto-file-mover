@@ -20,6 +20,8 @@ class myHandler(FileSystemEventHandler):
                 folder_destination = "C:\\DATA\\TXT_downloads\\"
             elif file_extension == ".jpg" or file_extension == ".png":
                 folder_destination = "C:\\DATA\\IMAGE_downloads\\"
+            elif file_extension == ".docx" or file_extension == ".doc":
+                folder_destination = "C:\\DATA\\WORD_downloads\\"
             else:
                 folder_destination = "C:\\DATA\\MISC_downloads\\"
             new_destination = folder_destination + filename     # Path to be moved too
